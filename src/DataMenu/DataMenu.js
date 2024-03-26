@@ -252,12 +252,6 @@ falseDataBeer: [
         volume: " л",
         price: " грн"
     },
-    {
-        name: "",
-        about: "",
-        volume: " л",
-        price: " грн"
-    },
 
 ],
 // Коктейлі
