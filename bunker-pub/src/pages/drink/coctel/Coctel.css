@@ -1,0 +1,63 @@
+.coctel{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px;
+}
+.coctel h2{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.header-coctel{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.this-coctel{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.coctel-item{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.header-coctel-name{
+    width: 25%;
+    text-align: center;
+    color: #db1f1f;
+}
+.header-coctel-about{
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+.header-coctel-volume{
+    width: 13%;
+    text-align: center;
+    color: #fff;
+}
+.header-coctel-price{
+    width: 13%;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width: 1279px) {
+    /* .header-coctel-volume{
+        text-align: start;
+    }
+    .header-coctel-price{
+        text-align: start;
+} */
+}

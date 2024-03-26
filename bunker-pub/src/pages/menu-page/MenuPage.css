@@ -1,0 +1,17 @@
+.menu-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    border: 6px dashed #db1f1f;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}

@@ -1,0 +1,63 @@
+.vine{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px;
+}
+.vine h2{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.header-vine{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.this-vine{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.vine-item{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.header-vine-name{
+    width: 25%;
+    text-align: center;
+    color: #db1f1f;
+}
+.header-vine-about{
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+.header-vine-volume{
+    width: 13%;
+    text-align: center;
+    color: #fff;
+}
+.header-vine-price{
+    width: 13%;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width: 1279px) {
+    /* .header-vine-volume{
+        text-align: start;
+    }
+    .header-vine-price{
+        text-align: start;
+    } */
+}

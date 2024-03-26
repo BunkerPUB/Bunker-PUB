@@ -1,0 +1,35 @@
+.dishes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.category-menu-dishes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+}
+.category-menu-dishes a{
+    color: #db1f1f;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Playfair Display;
+    font-style: normal;
+    line-height: normal;
+}
+.category-menu-dishes a:hover{
+    color: #fff;
+}
+.content-menu-dishes{
+    width: 100%;
+}
+@media (max-width:1279px) {
+    p{
+            font-size: 11px;
+    }
+}

@@ -1,0 +1,78 @@
+.promotion-page{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.promotion-content{
+    display: flex;
+    flex-direction: column;
+    border: 6px dashed #db1f1f;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+.menu-logo-promotion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo-p{
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+}
+.menu-promotion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.menu-promotion h2{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.promotion-item{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.promotion-span{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #db1f1f;
+}
+.menu-promotion p{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+}
+@media (max-width: 1279px) {
+    .menu-promotion h2{
+        font-size: 32px;
+    }
+    .promotion-span{
+        font-size: 24px;
+    }
+    .menu-promotion p{
+        font-size: 24px;
+    }
+}

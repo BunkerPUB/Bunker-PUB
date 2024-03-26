@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    border: 6px dashed #db1f1f;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    height: 100%;
+}
+.menu-logo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.logo-m{
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+}
+.menu-button{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    margin: 16px;
+}
+.menu-button a{
+    width: 90%;
+    border: 1px dashed #db1f1f;
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #db1f1f;
+}
+.menu-button a:hover:active{
+    border: 1px solid #db1f1f;
+    background-color: #db1f1f;
+    color: #111111;
+}

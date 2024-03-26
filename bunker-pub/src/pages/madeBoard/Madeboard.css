@@ -1,0 +1,98 @@
+.made-board{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.bording{
+    display: flex;
+    flex-direction: column;
+    border: 6px dashed #db1f1f;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100%;
+}
+.bording h2{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.your-board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.this-beer-board{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header-board{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.board-item{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.board-price{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.board-button{
+    display: flex;
+    padding: 8px 10px;
+    border: 1px solid #db1f1f;
+    border-radius: 8px;
+    background-color: #db1f1f;
+    color: #fff;
+}
+.board-button:hover{
+    background-color: #000222;
+    color: #db1f1f;
+}
+.total-price{
+    font-size: 18px;
+    color: #fff;
+}
+.header-board-name{
+    width: 25%;
+    text-align: center;
+    color: #db1f1f;
+}
+.header-board-volume{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}
+.header-board-quantity{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}
+.header-board-price{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}
+.header-board-add{
+    width: 20%;
+    text-align: center;
+    color: #fff;
+}

@@ -1,0 +1,67 @@
+.free-drink{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1px;
+}
+.free-drink h2{
+    font-family: "Cuprum";
+    font-style: normal;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.header-free-drink{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.this-free-drink{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.free-drink-item{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 3px;
+}
+.header-free-drink-name{
+    width: 25%;
+    text-align: center;
+    color: #db1f1f;
+}
+.header-free-drink-about{
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+.header-free-drink-volume{
+    width: 13%;
+    text-align: center;
+    color: #fff;
+}
+
+.header-free-drink-price{
+    width: 13%;
+    text-align: center;
+    color: #fff;
+}
+@media (max-width: 1279px) {
+    /* .header-free-drink-volume{
+        text-align: start;
+    }
+    .header-free-drink-price{
+        text-align: start;
+    } */
+    .header-free-drink-about{
+        text-align: center;
+    }
+}
