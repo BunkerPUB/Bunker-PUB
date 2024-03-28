@@ -23,7 +23,7 @@ const falseDataPromotion = DataMenu.falseDataPromotion;
                     </h2>
                 {falseDataPromotion.map((promotion, index) => (
                     <div key={index} className="promotion-item">
-                        <p className="header-promotion-data"> Акція діє до: <span className="promotion-span">{promotion.data}</span></p>
+                        <p className="header-promotion-data"><span className="promotion-span">{promotion.data}</span></p>
                         <p className="header-promotion-promotion">{promotion.promotion}</p>
                     </div>
                 ))}

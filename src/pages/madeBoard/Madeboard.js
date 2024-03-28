@@ -1,14 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Madeboard.css";
 import DataMenu from "../../DataMenu/DataMenu";
 import addicon from "../../img/icon/add.svg";
 import deleteicon from "../../img/icon/delete.svg";
-import arrow from "../../img/icon/arrowback.svg"
+import arrow from "../../img/icon/arrowback.svg";
 
 const Madeboard = () => {
   const falseDataBeerBoard = DataMenu.falseDataBeerBoard;
   const [yourBoardItems, setYourBoardItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
+
+  useEffect(() => {
+    const storedItems = JSON.parse(localStorage.getItem('selectedItems')) || [];
+    const storedTotalPrice = parseInt(localStorage.getItem('totalPrice')) || 0;
+
+    setYourBoardItems(storedItems);
+    setTotalPrice(storedTotalPrice);
+  }, []); // Порожній масив означає, що ефект виконається лише після монтажу компонента
 
   const updateLocalStorage = () => {
     localStorage.setItem('selectedItems', JSON.stringify(yourBoardItems));
