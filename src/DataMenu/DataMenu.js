@@ -74,7 +74,7 @@ falseDataHotDishes: [
         price: "110 грн"
     },
 ],
-// Дошки
+//  Дошки
 falseDataBoard: [
     {
         name: "МЕКСИКАНСЬКА ДОШКА",
