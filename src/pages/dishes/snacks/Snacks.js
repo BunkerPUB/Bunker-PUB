@@ -11,7 +11,7 @@ const falseDataSnacks = DataMenu.falseDataSnacks;
 return (
 
     <div className="snacks">
-        <h2>Снеки</h2>
+        <h2>снеки</h2>
         <div className="header-snacks">
             <p className="header-snacks-name">Назва</p>
             <p className="header-snacks-about">Опис</p>
