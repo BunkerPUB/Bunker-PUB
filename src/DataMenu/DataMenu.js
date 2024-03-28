@@ -75,7 +75,7 @@ falseDataHotDishes: [
     },
 ],
 // Снеки
-falseDataBoard: [
+falseDataSnacks: [
     {
         name: "МЕКСИКАНСЬКА ДОШКА",
         about: "Гуакамоле,чіпси начос,ковбаски з гострим соусом.",
