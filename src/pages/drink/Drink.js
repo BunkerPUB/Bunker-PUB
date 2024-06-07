@@ -23,7 +23,7 @@ const Drink = () =>{
                 <a className="arrow" href="/menu"><img src={arrow} alt="arrow"/>Повернутись назад</a>
                     <div className="category-menu-drink">
                         {/* <a onClick={() => handleCategoryClick("Пиво")}>Пиво</a> */}
-                        <a onClick={() => handleCategoryClick("Вино")}>Вино</a>
+                        {/* <a onClick={() => handleCategoryClick("Вино")}>Вино</a> */}
                         <a onClick={() => handleCategoryClick("Коктейлі")}>Коктейлі</a>
                         <a onClick={() => handleCategoryClick("Залпові коктейлі")}>Залпові коктейлі</a>
                         <a onClick={() => handleCategoryClick("Алкогольні напої")}>Алкогольні напої</a>
@@ -32,7 +32,7 @@ const Drink = () =>{
                     </div>
                     <div className="content-menu-drink">
                         {/* {selectedCategory === "Пиво" && <Beer />} */}
-                        {selectedCategory === "Вино" && <Vine />}
+                        {/* {selectedCategory === "Вино" && <Vine />} */}
                         {selectedCategory === "Коктейлі" && <Coctel />}
                         {selectedCategory === "Залпові коктейлі" && <FireDrink />}
                         {selectedCategory === "Алкогольні напої" && <Alcohol />}
