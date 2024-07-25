@@ -14,7 +14,7 @@ const Menu = () =>{
                 </div>
                 <div className="menu-button">
                     <a href="/menu">Меню</a>
-                    <a href="/promotion">Акції</a>
+                    {/* <a href="/promotion">Акції</a> */}
                     <a href="https://www.instagram.com/bunker__pub_brody/" target="_blank">Instagram</a>
                 </div>
                 </div>

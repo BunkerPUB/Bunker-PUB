@@ -11,20 +11,22 @@ const Madeboard = () => {
   const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
-    const storedItems = JSON.parse(localStorage.getItem('selectedItems')) || [];
-    const storedTotalPrice = parseInt(localStorage.getItem('totalPrice')) || 0;
+    const storedItems = JSON.parse(localStorage.getItem("selectedItems")) || [];
+    const storedTotalPrice = parseInt(localStorage.getItem("totalPrice")) || 0;
 
     setYourBoardItems(storedItems);
     setTotalPrice(storedTotalPrice);
   }, []); // Порожній масив означає, що ефект виконається лише після монтажу компонента
 
   const updateLocalStorage = () => {
-    localStorage.setItem('selectedItems', JSON.stringify(yourBoardItems));
-    localStorage.setItem('totalPrice', totalPrice);
+    localStorage.setItem("selectedItems", JSON.stringify(yourBoardItems));
+    localStorage.setItem("totalPrice", totalPrice);
   };
 
   const handleAddToYourBoard = (item) => {
-    const existingItemIndex = yourBoardItems.findIndex((boardItem) => boardItem.name === item.name);
+    const existingItemIndex = yourBoardItems.findIndex(
+      (boardItem) => boardItem.name === item.name
+    );
 
     if (existingItemIndex !== -1) {
       const updatedItems = [...yourBoardItems];
@@ -32,7 +34,11 @@ const Madeboard = () => {
       updatedItems[existingItemIndex].totalPrice += parseInt(item.price);
       setYourBoardItems(updatedItems);
     } else {
-      const newItem = { ...item, quantity: 1, totalPrice: parseInt(item.price) };
+      const newItem = {
+        ...item,
+        quantity: 1,
+        totalPrice: parseInt(item.price),
+      };
       setYourBoardItems([...yourBoardItems, newItem]);
     }
 
@@ -44,24 +50,24 @@ const Madeboard = () => {
 
   const handleRemoveFromYourBoard = (index, price, quantity) => {
     const updatedItems = [...yourBoardItems];
- 
+
     if (quantity === 1) {
       updatedItems.splice(index, 1);
     } else {
       updatedItems[index].quantity -= 1;
       updatedItems[index].totalPrice -= price;
     }
- 
+
     setYourBoardItems(updatedItems);
     setTotalPrice(totalPrice - price);
- 
+
     // Оновити дані в локальному сховищі
     updateLocalStorage();
   };
 
   const handleResetBoard = () => {
-    localStorage.removeItem('selectedItems');
-    localStorage.removeItem('totalPrice');
+    localStorage.removeItem("selectedItems");
+    localStorage.removeItem("totalPrice");
     setYourBoardItems([]);
     setTotalPrice(0);
   };
@@ -70,7 +76,10 @@ const Madeboard = () => {
     <div className="made-board">
       <div className="continer">
         <div className="bording">
-          <a className="arrow" href="/menu"><img src={arrow} alt="arrow"/>Повернутись назад</a>
+          <a className="arrow" href="/menu">
+            <img src={arrow} alt="arrow" />
+            Повернутись назад
+          </a>
           <h2>Створи свою дошку</h2>
           <div className="header-board">
             <p className="header-board-name">Назва</p>
@@ -84,16 +93,28 @@ const Madeboard = () => {
                 <p className="header-board-name">{item.name}</p>
                 <p className="header-board-quantity">{item.quantity}</p>
                 <p className="header-board-price">{item.totalPrice} грн.</p>
-                <p className="header-board-add"><img
-                  src={deleteicon}
-                  onClick={() => handleRemoveFromYourBoard(index, item.price, item.quantity)}
-                  alt="Delete"
-                /></p>
+                <p className="header-board-add">
+                  <img
+                    src={deleteicon}
+                    onClick={() =>
+                      handleRemoveFromYourBoard(
+                        index,
+                        item.price,
+                        item.quantity
+                      )
+                    }
+                    alt="Delete"
+                  />
+                </p>
               </div>
             ))}
             <div className="board-price">
-              <a onClick={handleResetBoard} className="board-button">Почни спочатку</a>
-              <p className="total-price">Ціна за дошку: {yourBoardItems.length > 0 ? totalPrice : 0} грн.</p>
+              <a onClick={handleResetBoard} className="board-button">
+                Почни спочатку
+              </a>
+              <p className="total-price">
+                Ціна за дошку: {yourBoardItems.length > 0 ? totalPrice : 0} грн.
+              </p>
             </div>
           </div>
           <div className="header-board">
@@ -106,13 +127,17 @@ const Madeboard = () => {
             {falseDataBeerBoard.map((board, index) => (
               <div key={index} className="board-item">
                 <p className="header-board-name">{board.name}</p>
-                <p className="header-board-volume">{board.volume} г.</p>
+                <p className="header-board-volume">
+                  {board.volume} {board.isCustomVolume ? "" : "г."}
+                </p>
                 <p className="header-board-price">{board.price} грн.</p>
-                <p className="header-board-add"><img
-                  src={addicon}
-                  onClick={() => handleAddToYourBoard(board)}
-                  alt="Add"
-                /></p>
+                <p className="header-board-add">
+                  <img
+                    src={addicon}
+                    onClick={() => handleAddToYourBoard(board)}
+                    alt="Add"
+                  />
+                </p>
               </div>
             ))}
           </div>

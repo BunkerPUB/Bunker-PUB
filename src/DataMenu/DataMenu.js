@@ -720,6 +720,12 @@ const DataMenu = {
       volume: "50",
       price: "60",
     },
+    {
+      name: "ТАРАНЬКА",
+      volume: "1 шт.",
+      price: "50",
+      isCustomVolume: true,
+    },
   ],
   // Акційна пропозиція
   falseDataPromotion: [
