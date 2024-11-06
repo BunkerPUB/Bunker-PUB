@@ -179,19 +179,19 @@ const DataMenu = {
       name: "КОЗАЦЬКА РАДА",
       about: "ГОРІЛКА",
       volume: "0.5 л",
-      price: "250 грн",
+      price: "270 грн",
     },
     {
       name: "ХЛІБНИЙ ДАР",
       about: "ГОРІЛКА",
       volume: "0.5 л",
-      price: "230 грн",
+      price: "250 грн",
     },
     {
       name: "ГЕТЬМАН",
       about: "ГОРІЛКА",
       volume: "0.5 л",
-      price: "260 грн",
+      price: "280 грн",
     },
     {
       name: "АЗНАУРІ 3*",
