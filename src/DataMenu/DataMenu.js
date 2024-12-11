@@ -158,7 +158,7 @@ const DataMenu = {
       price: "25 грн",
     },
     {
-      name: "Чилі",
+      name: "солодкий чилі",
       volume: "50 г",
       price: "25 грн",
     },
@@ -169,6 +169,11 @@ const DataMenu = {
     },
     {
       name: "томатний негострий",
+      volume: "50 г",
+      price: "25 грн",
+    },
+    {
+      name: "сирний",
       volume: "50 г",
       price: "25 грн",
     },
