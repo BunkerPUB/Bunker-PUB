@@ -218,21 +218,21 @@ const DataMenu = {
       about:
         "СЛОЇК НАЛИВОК",
       volume: "2 Л",
-      price: "600 грн",
+      price: "700 грн",
     },
 {
       name: "БОГДАНІВ СЛОЇК",
       about:
         "СЛОЇК НАЛИВОК",
       volume: "3 Л",
-      price: "900 грн",
+      price: "1050 грн",
     },
 {
       name: "БОГДАНІВ СЛОЇК",
       about:
         "СЛОЇК НАЛИВОК",
       volume: "4.5 Л",
-      price: "1350 грн",
+      price: "1575 грн",
     },
     {
       name: "СЕТ НАЛИВОК 6 ЧАРОК",
@@ -616,10 +616,10 @@ const DataMenu = {
       price: "60 грн",
     },
     {
-      name: "NON-STOP",
+      name: "Енергетик",
       about: "",
       volume: "250 мл",
-      price: "50 грн",
+      price: "60 грн",
     },
     {
       name: "ПІДПІЛЬНА КАВА",
@@ -649,7 +649,7 @@ const DataMenu = {
     {
       name: "КУРЯЧІ ДЖЕРКИ",
       volume: "100",
-      price: "65",
+      price: "80",
     },
     {
       name: "СИРОВЯЛЕНА КОВБАСА",
@@ -664,7 +664,7 @@ const DataMenu = {
     {
       name: "СВИННІ ДЖЕРКИ З ТОМАТАМИ",
       volume: "50",
-      price: "75",
+      price: "90",
     },
     {
       name: "СМУГИ КАЛЬМАРУ",
