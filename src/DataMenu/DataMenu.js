@@ -611,6 +611,18 @@ const DataMenu = {
       price: "40 грн",
     },
     {
+      name: "комбуча",
+      about: "",
+      volume: "0.35л",
+      price: "80 грн",
+    },
+    {
+      name: "комбуча з каннабіолом",
+      about: "",
+      volume: "0.35 л",
+      price: "100 грн",
+    },
+    {
       name: "EVERVESS TONIC",
       about: "",
       volume: "250 мл",
