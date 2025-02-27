@@ -770,7 +770,7 @@ const DataMenu = {
   // Акційна пропозиція
   falseDataPromotion: [
     {
-      data: "Акція",
+      data: "Акція на все віскі -50%",
       promotion:
         "",
     },
