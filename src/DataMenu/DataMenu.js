@@ -522,7 +522,7 @@ const DataMenu = {
     },
     {
       name: "ТАРАКАН",
-      about: "(ПАЛАЄ) KARORUM ПІКЕР. CAMБУKA, АБСЕНТ",
+      about: "(ПАЛАЄ) Kавовий ЛІКЕР. CAMБУKA, АБСЕНТ",
       volume: "60 мл",
       price: "180 грн",
     },
@@ -596,7 +596,7 @@ const DataMenu = {
       name: "СІК САНДОРА В АСОРТИМЕНТІ",
       about: "",
       volume: "1 л",
-      price: "130 грн",
+      price: "150 грн",
     },
     {
       name: "ПЕПСІ",
@@ -608,7 +608,7 @@ const DataMenu = {
       name: "ПЕПСІ",
       about: "",
       volume: "500 мл",
-      price: "40 грн",
+      price: "45 грн",
     },
     {
       name: "комбуча",
@@ -644,13 +644,13 @@ const DataMenu = {
       name: "ПІДПІЛЬНА КАВА",
       about: "",
       volume: "200 мл",
-      price: "30 грн",
+      price: "50 грн",
     },
     {
       name: "ЧАЙ",
       about: "",
       volume: "200 мл",
-      price: "30 грн",
+      price: "40 грн",
     },
   ],
   // Пивна дошка
@@ -703,7 +703,7 @@ const DataMenu = {
     {
       name: "СУЛУГУНІ КОПЧЕНИЙ",
       volume: "100",
-      price: "60",
+      price: "70",
     },
     {
       name: "APAXIC КРАНЧ",
@@ -718,7 +718,7 @@ const DataMenu = {
     {
       name: "КУКУРУДЗА ЖАРЕНА",
       volume: "100",
-      price: "56",
+      price: "60",
     },
     {
       name: "ГРІНКИ",
