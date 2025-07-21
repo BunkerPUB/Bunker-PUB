@@ -316,9 +316,6 @@ const falseDataCoctel = [
 І ЯК ТИХА СПРАГА НЕ ДО АЛКОГОЛЮ, А ДО НЕЇ`,
     volume: "200 мл",
     price: "160 грн",
-  },
-{
-
     },
     {
       name: "CHERRY GIN SOUR",
