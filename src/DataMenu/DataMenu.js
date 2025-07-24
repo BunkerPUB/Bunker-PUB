@@ -303,7 +303,7 @@ const DataMenu = {
     },
   ],
   // Коктейлі
-const falseDataCoctel = [
+falseDataCoctel: [
   {
     name: "Липка",
     about: `ЛИПКА — ЦЕ НЕ ПРО НАПІЙ  
