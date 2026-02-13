@@ -109,9 +109,9 @@ const Madeboard = () => {
               </div>
             ))}
             <div className="board-price">
-              <a onClick={handleResetBoard} className="board-button">
+              <button type="button" onClick={handleResetBoard} className="board-button">
                 Почни спочатку
-              </a>
+              </button>
               <p className="total-price">
                 Ціна за дошку: {yourBoardItems.length > 0 ? totalPrice : 0} грн.
               </p>

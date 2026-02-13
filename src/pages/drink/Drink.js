@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import "./Drink.css"
-import Vine from "./vine/Vine";
 import FireDrink from "./fireDrink/FireDrink";
 import FreeDrink from "./freeDrink/FreeDrink";
 import Alcohol from "./alcohol/Alcohol";
 import Coctel from "./coctel/Coctel";
-import Beer from "./beer/Beer";
 import Shota from "./shota/Shota"
 import arrow from "../../img/icon/arrowback.svg"
 
@@ -24,11 +22,11 @@ const Drink = () =>{
                     <div className="category-menu-drink">
                         {/* <a onClick={() => handleCategoryClick("Пиво")}>Пиво</a> */}
                         {/* <a onClick={() => handleCategoryClick("Вино")}>Вино</a> */}
-                        <a onClick={() => handleCategoryClick("Коктейлі")}>Коктейлі</a>
-                        <a onClick={() => handleCategoryClick("Залпові коктейлі")}>Залпові коктейлі</a>
-                        <a onClick={() => handleCategoryClick("Алкогольні напої")}>Алкогольні напої</a>
-                        <a onClick={() => handleCategoryClick("Безалкогольні напої")}>Безалкогольні напої</a>
-                        <a onClick={() => handleCategoryClick("Сети")}>Сети</a>
+                        <button type="button" onClick={() => handleCategoryClick("Коктейлі")}>Коктейлі</button>
+                        <button type="button" onClick={() => handleCategoryClick("Залпові коктейлі")}>Залпові коктейлі</button>
+                        <button type="button" onClick={() => handleCategoryClick("Алкогольні напої")}>Алкогольні напої</button>
+                        <button type="button" onClick={() => handleCategoryClick("Безалкогольні напої")}>Безалкогольні напої</button>
+                        <button type="button" onClick={() => handleCategoryClick("Сети")}>Сети</button>
                     </div>
                     <div className="content-menu-drink">
                         {/* {selectedCategory === "Пиво" && <Beer />} */}

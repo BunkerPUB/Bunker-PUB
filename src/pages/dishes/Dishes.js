@@ -21,11 +21,11 @@ const Dishes = () => {
             Повернутись назад
           </a>
           <div className="category-menu-dishes">
-            <a onClick={() => handleCategoryClick("Гарячі страви")}>
+            <button type="button" onClick={() => handleCategoryClick("Гарячі страви")}>
               Гарячі страви
-            </a>
-            <a onClick={() => handleCategoryClick("Дошки")}>Дошки</a>
-            <a onClick={() => handleCategoryClick("Соуси")}>Соуси</a>
+            </button>
+            <button type="button" onClick={() => handleCategoryClick("Дошки")}>Дошки</button>
+            <button type="button" onClick={() => handleCategoryClick("Соуси")}>Соуси</button>
           </div>
           <div className="content-menu-dishes">
             {selectedCategory === "Гарячі страви" && <HotDishes />}
