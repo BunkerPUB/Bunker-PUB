@@ -13,7 +13,9 @@
     gap: 15px;
     margin: 20px 0;
 }
-.category-menu-dishes a{
+.category-menu-dishes button{
+    background: transparent;
+    border: none;
     color: #db1f1f;
     cursor: pointer;
     font-size: 20px;
@@ -21,9 +23,11 @@
     font-family: Playfair Display;
     font-style: normal;
     line-height: normal;
+    padding: 8px 12px;
 }
-.category-menu-dishes a:hover{
+.category-menu-dishes button:hover{
     color: #fff;
+    background: rgba(219, 31, 31, 0.1);
 }
 .content-menu-dishes{
     width: 100%;

@@ -13,7 +13,9 @@
     gap: 15px;
     margin: 20px 10px;
 }
-.category-menu-drink a{
+.category-menu-drink button{
+    background: transparent;
+    border: none;
     color: #db1f1f;
     cursor: pointer;
     font-size: 20px;
@@ -21,9 +23,11 @@
     font-family: Playfair Display;
     font-style: normal;
     line-height: normal;
+    padding: 8px 12px;
 }
-.category-menu-drink a:hover{
+.category-menu-drink button:hover{
     color: #fff;
+    background: rgba(219, 31, 31, 0.1);
 }
 .content-menu-drink{
     width: 100%;

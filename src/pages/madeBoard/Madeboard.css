@@ -68,14 +68,15 @@
     padding: 8px 10px;
     border: 1px solid #db1f1f;
     border-radius: 8px;
-    background-color: #db1f1f;
-    color: #fff;
+    background-color: transparent;
+    color: #db1f1f;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .board-button:hover {
-    background-color: #000222;
-    color: #db1f1f;
+    background-color: rgba(219, 31, 31, 0.1);
+    color: #fff;
 }
 
 .total-price {
